@@ -6,7 +6,7 @@ ARG ROOT_CONTAINER=ubuntu:focal-20200703@sha256:d5a6519d9f048100123c568eb83f7ef5
 ARG BASE_CONTAINER=$ROOT_CONTAINER
 FROM $BASE_CONTAINER
 
-LABEL maintainer="EEA: DIS1 DevTeam <info@eea.europa.eu>"
+LABEL maintainer="EEA: DIS1 DevTeam"
 
 ARG PYTHON_VERSION=default
 
